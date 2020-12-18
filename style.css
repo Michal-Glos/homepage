@@ -6,11 +6,9 @@ section {
 }
 
 .main-heading {
-    color: blue;
+    color: rgb(32, 32, 158);
 }
-p {
-    color: #2d30e7;
-}
+
 .secondary-heading {
     color:#149904;
 }
