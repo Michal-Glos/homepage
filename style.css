@@ -1,0 +1,41 @@
+body{
+    background:lightgray;
+}
+section {
+    background:#fefefe;
+}
+
+.main-heading {
+    color: blue;
+}
+p {
+    color: #2d30e7;
+}
+.secondary-heading {
+    color:#149904;
+}
+
+.hotpink-header {
+    color:hotpink;
+}
+
+#top{
+    background:rgb(99, 213, 248);
+}
+
+.photo{
+    background:black;
+    font-size: 0,2cm;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+a {
+    color:orangered;
+
+}
+
+nav a {
+    color:indianred;
+}
