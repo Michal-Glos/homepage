@@ -1,39 +1,41 @@
 body{
-    background:lightgray;
+	background:lightgray;
 }
 section {
-    background:#fefefe;
+	background:#fefefe;
 }
 
 .main-heading {
-    color: rgb(32, 32, 158);
+	color: rgb(32, 32, 158);
 }
 
 .secondary-heading {
-    color:#149904;
+	color:#149904;
 }
 
 .hotpink-header {
-    color:hotpink;
+	color:rgb(100, 0, 50);
 }
 
 #top{
-    background:rgb(99, 213, 248);
+	background:rgb(99, 213, 248);
 }
 
 .photo{
-    background:rgb(252, 118, 118);
-    font-size: 0,2cm;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-
+	background:rgb(252, 118, 118);
+	font-size: 0,2cm;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 a {
-    color:orangered;
-
+	color:orangered;
 }
 
 nav a {
-    color:indianred;
+	color:indianred;
+}
+
+.box {
+	display:flex;
+	max-width: 500px;
 }
