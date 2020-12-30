@@ -1,76 +1,116 @@
-body{
-	background:lightgray;
+body {
+	background: lightgray;
 }
+
 section {
 	background:#fefefe;
-}
-
-.main-heading {
-	color: rgb(32, 32, 158);
-	border-radius: 10px;
-	margin:30px;
-}
-
-.secondary-heading {
-	border-radius: 10px;
-	color:#149904;
-}
-
-.hotpink-header {
-	color:#640032;
-}
-
-#top{
-	background:#63d5f8;
-	border-radius: 10px;
-}
-
-.photo{
-	background:rgb(252, 118, 118);
-	font-size: 0,2cm;
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	box-sizing:border-box;
-	Padding:30px;
-	width:100%;
 	border-radius:10px;
 }
 
+.mainedit {
+	width:900px;
+	text-align:center;
+	margin:auto;
+}
+.main-heading {
+	color: rgb(32, 32, 158);
+	border-radius: 10px;
+	margin: 30px;
+}
+
+.secondary-heading {
+	border-radius:10px;
+	border: 1px rgb(151, 151, 151) solid;
+	color: #990904;
+	padding: 16px;
+	background:#fefefe;
+}
+
+.secondary-heading__description {
+	color: #cd5c5c;
+	padding:16p
+	
+}
+
+#top {
+	background: #63d5f8;
+	border-radius: 10px;
+}
+
+
 a {
-	color:#ff4500;
+	color: #ff4500;
 }
 
 nav a {
-	color:#cd5c5c;
+	color: #cd5c5c;
 }
 
 .box {
-	display:flex;
+	display: flex;
 	max-width: 500px;
+}
+
+.photography {
+	background: rgb(80, 80, 80);
+	font-size: 0, 2cm;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	box-sizing: border-box;
+	Padding: 30px;
+	width: 100%;
+	border-radius: 10px;
+}
+
+.photography__header {
+	color: #640032;
+}
+
+
+.photography__box img {
+	max-width: 500px;
+	height: auto;
+	margin: 10px 0;
+	border-radius: 10px;
 }
 
 .navigation {
 	background: #33a733;
-	padding:16px;
-	border-radius:8px;
-
+	padding: 16px;
+	border-radius: 8px;
 }
 
 .navigation__link {
-	color:#fff;
-	display:inline-block;
-	margin-right:20px;
+	color: #fff;
+	display: inline-block;
+	margin-right: 20px;
 }
 
 .navigation__link--homepage {
-	color:#000;
-	background:indigo;
-
+	color: #000;
+	background: rgba(172, 3, 144, 0.445)
 }
 
-.photoBox img {
-	max-width: 500px;
-	height:auto;
-	margin: 10px 0;
+.week-summary {
+	background: #fefefe;
+	padding: 16px;
+	border: 1px solid rgb(151, 151, 151);
+	margin-bottom: 10px;
+	color:sandybrown;
 	border-radius:10px;
+}
 
+.week-summary--special {
+	border: 1px solid #640032;
+}
+
+.week-summary__title {
+	color: #640032;
+}
+
+.week-summary__description {
+	color: #5106a7;
+}
+
+.footer {
+	text-align:center;
 }
