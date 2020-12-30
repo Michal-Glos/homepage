@@ -75,10 +75,12 @@ nav a {
 
 .navigation {
 	background: #33a733;
-	padding: 16px;
-	border-radius: 8px;
+	padding-top:16px;
+	padding-bottom:16px;
+	border-radius: 10px;
 	text-align:center;
 	width:900px;
+	margin:auto;
 }
 
 .navigation__link {
