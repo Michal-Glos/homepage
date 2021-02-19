@@ -5,17 +5,18 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>GlosFoto.pl</title>
-
+	<link href="normalize.css" rel="stylesheet" type="text/css">
 	<link href="style.css" rel="stylesheet" type="text/css">
 </head>
 
-<body>
+<body class="body">
 
 	<header>
 		<nav class="navigation">
 			<a class="navigation__link navigation__link--homepage" href="index.html">Strona główna</a>
 			<a class="navigation__link" href="nauka-html.html">Nauka html</a>
 			<a class="navigation__link" href="portfolio.html">Moje portfolio</a>
+			<a class="navigation__link" href="wizytowka.html">Wizytówka</a>
 		</nav>
 	</header>
 
@@ -34,8 +35,8 @@
 				całego magazynu, począwszy od przyjęcia towaru, kończąc na wysyłce/wydaniu. <a href="#notatki">Przejdź
 					do notatek</a></p>
 		</section>
-		<section>
-			<section>
+		<section class="week-summary">
+			<section id="notatki">
 				<h2 class="secondary-heading">Notatki</h2>
 				<p class="secondary-heading__description">Odrobiłem zadania domowe, idzie mi coraz lepiej. <br>Podoba mi
 					się
@@ -53,6 +54,37 @@
 							którą do perfekcji opanowało niewielu. Jeśli chcesz stać się częścią tej grupy, musisz
 							wykazać się otwartą głową i dużą ilością wolnego czasu...
 					</p>
+					<section class="list">
+						<h4>Lista fajnych znaczników</h4>
+						<ul class="list">
+							<li class="list__item">UL</li>
+							<li class="list__item">OL</li>
+							<li class="list__item">SECTION</li>
+						</ul>
+					</section>
+					<section class="table">
+						<h4 class="table__name">Rozpiska WTF</h4>
+						<table class="table">
+							<caption>Spis odcinków WTF: co ten frontend</caption>
+							<thead>
+								<tr>
+									<th>Lp.</th>
+									<th>Tytuł</th>
+									<th>Czas trwania</th>
+								</tr>
+								<tr>
+									<td>1.</td>
+									<td>Powitanie</td>
+									<td>05:45</td>
+								</tr>
+								<tr>
+									<td>2.</td>
+									<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </td>
+									<td>15:23</td>
+								</tr>
+							</thead>
+						</table>
+					</section>
 				</article>
 
 				<article class="week-summary">
@@ -64,6 +96,7 @@
 						wytworzyć
 						schemat nagrywania, który każdego dnia przybliża mnie do skończenia pracy.
 					</p>
+				
 				</article>
 
 				<article class="week-summary">
