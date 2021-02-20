@@ -9,6 +9,8 @@ html {
 .body {
 	background: linear-gradient(45deg, #3f3f3f,#0000, #3f3f3f);
 	text-align: center;
+	background-repeat: no-repeat;
+	min-height: 100vh;
 }
 
 .body__buisness-card {
@@ -147,6 +149,7 @@ nav a {
 
 .footer {
 	text-align:center;
+
 }
 
 .list {
