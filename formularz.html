@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms playground</title>
+    <link href="normalize.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body class="playground__background">
+    <header class="navigation__header">
+		<nav class="navigation">
+			<a class="navigation__link navigation__link--homepage" href="index.html">Strona główna</a>
+			<a class="navigation__link" href="nauka-html.html">Nauka html</a>
+			<a class="navigation__link" href="portfolio.html">Moje portfolio</a>
+			<a class="navigation__link" href="wizytowka.html">Wizytówka</a>
+			<a class="navigation__link" href="formularz.html">Formularze testowe</a>
+		</nav>
+	</header>
+    
+    <main>
+        <h1>Forms playground</h1>
+        <form class="form">
+            <p>
+                <label for="firstName">Name:</label>
+                <input class="form__item" placeholder="Enter Your name" id="firstName" name="firstName">
+            </p>
+            <p>
+                <label>Last name:
+                    <input class="form__item"
+                    type="text"
+                    value="Kupsztal"
+                    placeholder="Enter Your last name"
+                    id="lastName"
+                    name="lastName">
+                </label>
+            </p>
+                <p>
+                    <label>Favourite number:
+                        <input
+                        type="number"
+                        class="form__item"
+                        placeholder="Enter your favourite number"
+                        id="favouriteNumber" 
+                        name="favouriteNumber">
+                    </label>
+                </p>
+                <p>
+                    <label>E-mail:
+                        <input
+                        type="email"
+                        class="form__item"
+                        placeholder="Enter your E-mail"
+                        id="email" 
+                        name="email">
+                    </label>
+                </p>
+                <p>
+                    <label>Phone number:
+                        <input
+                        type="tel"
+                        class="form__item"
+                        placeholder="Enter your phone number"
+                        id="phoneNumber" 
+                        name="phoneNumber">
+                    </label>
+                </p>
+                <p>
+                    <label>Range:
+                        <input
+                        type="range"
+                        class="form__item"
+                        id="range" 
+                        name="range"
+                        min="0"
+                        max="100"
+                        step="5">
+                    </label>
+                </p>
+                <p>
+                    <label>Login:
+                        <input
+                        type="text"
+                        class="form__item"
+                        placeholder="Enter your login"
+                        id="login" 
+                        name="login">
+                    </label>
+                </p>
+                <p>
+                    <label>Password:
+                        <input
+                        type="password"
+                        class="form__item"
+                        placeholder="Enter your password"
+                        id="password" 
+                        name="password">
+                    </label>
+                </p>
+                <p>
+                    <label>Avatar:
+                        <input
+                        type="file"
+                        class="form__item"
+                        id="avatar" 
+                        name="avatar">
+                    </label>
+                </p>
+
+            <fieldset>
+                <legend>Address</legend>
+                <p>
+                    <label>Street name:
+                        <input 
+                            class="form__item"
+                            placeholder="Enter your street name"
+                            id="streetName"
+                            name="streetName">
+                    </label>
+                </p>
+                <p>
+                    <label>City name:
+                        <input
+                        class="form__item"
+                        placeholder="Enter your city name"
+                        id="cityName" 
+                        name="cityName">
+                    </label>
+                </p>
+
+            </fieldset>
+            <fieldset>
+                <legend>Favourite icecream flavour</legend>
+                <p>
+                    <label><input
+                    name="iceCream"
+                    type="radio"
+                    value="Chocolate">
+                Chocolate</label>
+                </p>
+                <p>
+                    <label><input
+                    name="iceCream"
+                    type="radio"
+                    value="Strawberry">
+                Strawberry</label>
+                </p>
+                <p>
+                    <label><input
+                    name="iceCream"
+                    type="radio"
+                    value="Vanilla">
+                    Vanilla</label>
+                </p>
+            </fieldset>
+            <p>
+                <label><input name="agreement" checked type="checkbox"> I agree with terms of use.</label>
+            </p>
+      
+        </form>
+    </main>
+
+</body>
+
+</html>

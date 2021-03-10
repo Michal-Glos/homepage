@@ -112,7 +112,8 @@ nav a {
 	background: #33a733;
 	padding: 16px;
 	border-radius: 8px;
-}
+	min-width: 100vw;
+	}
 
 .navigation__link {
 	color: #fff;
@@ -120,6 +121,7 @@ nav a {
 	margin-right: 35px;
 	text-align:center;
 }
+
 
 .navigation__link--homepage {
 	color: #000;
@@ -212,3 +214,25 @@ nav a {
     color: #ED6D05;
     font-weight: normal;
 }
+
+.playground__background {
+	background-color: #2C2141;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+	color: #fff;
+	flex-wrap:wrap;
+}
+
+
+.form {
+
+
+}
+
+.form__item {
+	display:block;
+	width:100%;
+}
+
