@@ -10,8 +10,8 @@
     <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 
-<body class="playground__background">
-    <header class="navigation__header">
+<body class="forms__background" >
+    <header>
 		<nav class="navigation">
 			<a class="navigation__link navigation__link--homepage" href="index.html">Strona główna</a>
 			<a class="navigation__link" href="nauka-html.html">Nauka html</a>
@@ -20,10 +20,12 @@
 			<a class="navigation__link" href="formularz.html">Formularze testowe</a>
 		</nav>
 	</header>
+
     
-    <main>
-        <h1>Forms playground</h1>
-        <form class="form">
+    <main class="playground__background">
+        <h1 class="form__title">Forms playground</h1>
+        <div class="form__wrapper">
+        <form method="post" action="https://dev.cotenfrontend.pl" class="form">
             <p>
                 <label for="firstName">Name:</label>
                 <input class="form__item" placeholder="Enter Your name" id="firstName" name="firstName">
@@ -32,7 +34,6 @@
                 <label>Last name:
                     <input class="form__item"
                     type="text"
-                    value="Kupsztal"
                     placeholder="Enter Your last name"
                     id="lastName"
                     name="lastName">
@@ -67,6 +68,16 @@
                         id="phoneNumber" 
                         name="phoneNumber">
                     </label>
+                </p>
+                <p>
+                    <label for="band">Pick one band: </label>
+                        <select name="band" id="band">
+                            <option value="band-1">KoRn</option>
+                            <option value="band-2">Slipknot</option>
+                            <option value="band-3">Trivium</option>
+                            <option value="band-4">Chevelle</option>
+                           
+                       </select>
                 </p>
                 <p>
                     <label>Range:
@@ -107,6 +118,11 @@
                         class="form__item"
                         id="avatar" 
                         name="avatar">
+                    </label>
+                </p>
+                <p>
+                    <label for="yourStory">Your Story:
+                        <textarea name="yourStory" id="yourStory" placeholder="Miejsce na twoją wypowiedź..."></textarea>
                     </label>
                 </p>
 
@@ -157,12 +173,17 @@
                 </p>
             </fieldset>
             <p>
-                <label><input name="agreement" checked type="checkbox"> I agree with terms of use.</label>
+                <label><input name="agreement" value="agree" checked type="checkbox"> I agree with terms of use.</label>
             </p>
-      
+            <p>
+               <input class="form__send" type="submit" value="Send">
+            </p>
+
+        
         </form>
+    </div>
     </main>
 
 </body>
 
-</html>
+</html> 

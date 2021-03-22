@@ -1,13 +1,13 @@
 html {
-	box-sizing:border-box;
+	box-sizing: border-box;
 }
 
 *, *:before, *:after {
-	box-sizing:inherit;
+	box-sizing: inherit;
 }
 
 .body {
-	background: linear-gradient(45deg, #3f3f3f,#0000, #3f3f3f);
+	background: linear-gradient(45deg, #3f3f3f, #0000, #3f3f3f);
 	text-align: center;
 	background-repeat: no-repeat;
 	min-height: 100vh;
@@ -15,33 +15,36 @@ html {
 
 .body__buisness-card {
 	background: #2C2141;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    font-family: Arial, Helvetica, sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .body__header {
-	display:flex;
+	display: flex;
 	justify-content: flex-start;
 }
+
 section {
-	background:#fefefe;
-	border-radius:10px;
+	background: #fefefe;
+	border-radius: 10px;
 }
 
 .main__buisness-card {
 	background: #F8F8F8;
-    border-radius: 16px;
-    width: 624px;
-    margin: 16px;
-    padding: 32px;
+	border-radius: 16px;
+	width: 624px;
+	margin: 16px;
+	padding: 32px;
 }
+
 .mainedit {
-	max-width:900px;
+	max-width: 900px;
 	margin: 0 auto;
 }
+
 .main-heading {
 	color: rgb(32, 32, 158);
 	border-radius: 10px;
@@ -49,17 +52,16 @@ section {
 }
 
 .secondary-heading {
-	border-radius:10px;
+	border-radius: 10px;
 	border: 1px rgb(151, 151, 151) solid;
 	color: #990904;
 	padding: 16px;
-	background:#fefefe;
+	background: #fefefe;
 }
 
 .secondary-heading__description {
 	color: #cd5c5c;
-	padding:16px;
-	
+	padding: 16px;
 }
 
 #top {
@@ -68,7 +70,7 @@ section {
 }
 
 #notatki {
-	color:#ff4500
+	color: #ff4500
 }
 
 a {
@@ -98,7 +100,6 @@ nav a {
 	color: #640032;
 }
 
-
 .photography__box img {
 	max-width: 500px;
 	height: auto;
@@ -107,21 +108,19 @@ nav a {
 }
 
 .navigation {
-	display:flex;
+	display: flex;
 	justify-content: center;
 	background: #33a733;
 	padding: 16px;
 	border-radius: 8px;
-	min-width: 100vw;
-	}
+}
 
 .navigation__link {
 	color: #fff;
 	display: inline-block;
 	margin-right: 35px;
-	text-align:center;
+	text-align: center;
 }
-
 
 .navigation__link--homepage {
 	color: #000;
@@ -133,8 +132,8 @@ nav a {
 	padding: 16px;
 	border: 1px solid rgb(151, 151, 151);
 	margin-bottom: 10px;
-	color:sandybrown;
-	border-radius:10px;
+	color: sandybrown;
+	border-radius: 10px;
 }
 
 .week-summary--special {
@@ -150,85 +149,77 @@ nav a {
 }
 
 .footer {
-	text-align:center;
-
+	text-align: center;
 }
 
 .list {
 	list-style-type: square;
-	color:chocolate;
+	color: chocolate;
 }
 
 .table {
 	width: 100%;
 	color: black;
-	text-align:left;
+	text-align: left;
 }
+
 .table__name {
-	text-align:center;
+	text-align: center;
 }
 
 .person {
-    display:flex;
-    align-items: flex-start;
+	display: flex;
+	align-items: flex-start;
 }
 
 .person__description {
-    font-size: 16px;
-    line-height: 22px;
-    margin:0;
+	font-size: 16px;
+	line-height: 22px;
+	margin: 0;
 }
 
 .person__description--with-margin {
-    margin-bottom:22px;
+	margin-bottom: 22px;
 }
 
 .person__info {
-    margin-bottom: 24px;
+	margin-bottom: 24px;
 }
 
 .person__link {
-    color: #E20613;
-    text-decoration: none;
+	color: #E20613;
+	text-decoration: none;
 }
 
-
 .person__name {
-    font-size: 36px;
-    margin: 0;
-    font-weight: normal;
+	font-size: 36px;
+	margin: 0;
+	font-weight: normal;
 }
 
 .person__picture {
-    margin-right: 32px;
+	margin-right: 32px;
 }
 
 .person__position {
-    font-size: 18px;
-    color: #545454;
-    margin: 0;
-    font-style: italic;
+	font-size: 18px;
+	color: #545454;
+	margin: 0;
+	font-style: italic;
 }
 
 .special {
-    color: #ED6D05;
-    font-weight: normal;
+	color: #ED6D05;
+	font-weight: normal;
 }
 
 .playground__background {
-	background-color: #2C2141;
-	display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
+	min-height: 100vh;
 	color: #fff;
-	flex-wrap:wrap;
 }
 
-
-.form {
-
-
+.forms__background {
+	background-color: #2C2141;
 }
 
 .form__item {
@@ -236,3 +227,17 @@ nav a {
 	width:100%;
 }
 
+.form__title {
+	text-align: center;
+}
+.form__wrapper {
+	margin:0 auto;
+	max-width:600px;
+}
+.form textarea {
+	width:100%;
+}
+
+.form__send {
+	border-radius: 6px;
+}
