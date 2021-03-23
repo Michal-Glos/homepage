@@ -13,8 +13,11 @@ html {
 	min-height: 100vh;
 }
 
-.body__buisness-card {
+.body__background {
 	background: #2C2141;
+}
+.body__buisness-card {
+
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -112,7 +115,7 @@ nav a {
 	justify-content: center;
 	background: #33a733;
 	padding: 16px;
-	border-radius: 8px;
+	border-radius:8px;
 }
 
 .navigation__link {
@@ -123,8 +126,7 @@ nav a {
 }
 
 .navigation__link--homepage {
-	color: #000;
-	background: rgba(172, 3, 144, 0.445)
+	font-weight: bolder;
 }
 
 .week-summary {
