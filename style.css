@@ -145,6 +145,7 @@ nav a {
 	color: #1460aa;
 }
 
+
 .navigation--open {
 	display: block;
 }
@@ -157,7 +158,9 @@ nav a {
 	color: sandybrown;
 	border-radius: 10px;
 }
-
+.week-summary:hover {
+	background-color: #33a733;
+}
 .week-summary--special {
 	border: 1px solid #640032;
 }
@@ -274,6 +277,12 @@ nav a {
 	right: 16px;
 	border: none;
 	background:none;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	column-gap:25px;
 }
 
 @media screen and (min-width: 768px) {
